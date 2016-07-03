@@ -17,16 +17,19 @@
     font-family: 'Signika Negative', sans-serif;
     margin: 35px 100px 0;
 }
-.container{
+.navbar .container{
     background-color:black;
     width:100%;
 }
 .logo img{
     margin:5px 0 10 100px;
 }
+
+
 /* ==========================================================================
-   navbar
+   media query
    ========================================================================== */
+
 
 @media(max-width:786px){
     .logo img{
@@ -36,11 +39,63 @@
         margin:0;
     }
 }
+/* ==========================================================================
+   carousel
+   ========================================================================== */
+#slider{
+    width:100%;
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+}
 
+.container-fluid{
+    padding-left:0px;
+    padding-right:0px;
+    margin-right:0px;
+    margin-left:0px;
+}
+.carousel{
+    padding-right:0px;
+    margin-right:0px;
+}
+.carousel-inner .item{
+    background-color:black;
+    height:100%;
+}
 
-
-
-
-
-
-
+.carousel-inner .item img{
+    opacity:0.6;
+}
+.overlay {
+    font-family: 'Signika Negative', sans-serif;
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+}
+.carousel-indicators li{
+    background-color:#fff;
+    margin:5px;
+    display:inline-block:
+}
+.carousel-indicators .active{
+    background-color:#16a085;
+    border:1px solid #16a085;
+    margin:4px;  
+}
+.btn-success{
+    background-color:#16a085;
+    border-color:#16a085;
+    background-image:none;
+    font-size:1.4em;
+}
+.btn-success:hover{
+    background-color:#fff;
+    border-bottom-color:#fff;
+    color:gray;
+}
