@@ -1,17 +1,41 @@
 
 
 /* ==========================================================================
-   Author's custom styles
+   navbar
+   ========================================================================== */
+.navbar-default{
+    background-color:transparent;
+    border-bottom-color:transparent;
+}
+.navbar-default .navbar-nav li a{
+    color:white;
+}
+.navbar-default .navbar-nav li a:hover{
+    color:#16a085;
+}
+.navbar-nav{
+    font-family: 'Signika Negative', sans-serif;
+    margin: 35px 100px 0;
+}
+.container{
+    background-color:black;
+    width:100%;
+}
+.logo img{
+    margin:5px 0 10 100px;
+}
+/* ==========================================================================
+   navbar
    ========================================================================== */
 
-
-
-
-
-
-
-
-
+@media(max-width:786px){
+    .logo img{
+        visibility:hidden;
+    }
+    .navbar-nav{
+        margin:0;
+    }
+}
 
 
 
