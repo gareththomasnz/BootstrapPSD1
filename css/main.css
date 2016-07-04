@@ -23,6 +23,7 @@
 }
 .logo img{
     margin:5px 0 10 100px;
+    padding-left:20px;
 }
 
 
@@ -55,6 +56,7 @@
     padding-right:0px;
     margin-right:0px;
     margin-left:0px;
+    overflow: hidden
 }
 .carousel{
     padding-right:0px;
@@ -77,6 +79,13 @@
     left:0;
     width:100%;
     text-align:center;
+}
+.OverlayPic{
+    position:absolute;
+    z-index:11;
+    top:54.2%;
+    left:0;
+    padding-left:70px;
 }
 .carousel-indicators li{
     background-color:#fff;
