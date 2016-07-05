@@ -130,6 +130,9 @@ font-style: normal;
     border-color:#0e6655;
     color:white;
 }
+.btn-success:focus, .btn-success:active:focus{
+    background-color:#16a085;    
+}
 /* ==========================================================================
    photo section
    ========================================================================== */
