@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/animate.css">
         <link href="css/font-awesome.min.css" rel="stylesheet">
             
         <link href='https://fonts.googleapis.com/css?family=Signika+Negative' rel='stylesheet' type='text/css'>
@@ -96,22 +97,22 @@
         <section id="photo">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow pulse">
                         <i class="fa fa-camera-retro fa-4x"></i>
                         <h1>Your Life in a Photo</h1>
                         <p>Lorem ipsum dolor sit amet, et sensibus explicari cotidieque mei, nec graeco consulatu no</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow pulse" data-wow-delay="0.2s"">
                         <i class="fa fa-comments-o fa-4x"></i>
                         <h1>Engage With Other Users</h1>
                         <p>Lorem ipsum dolor sit amet, et sensibus explicari cotidieque mei, nec graeco consulatu no</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow pulse" data-wow-delay="0.3s">
                         <i class="fa fa-cloud-upload fa-4x"></i>
                         <h1>Store In The Cloud</h1>
                         <p>Lorem ipsum dolor sit amet, et sensibus explicari cotidieque mei, nec graeco consulatu no</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 wow pulse" data-wow-delay="0.4s">
                         <i class="fa fa-thumbs-o-up fa-4x"></i>
                         <h1>Instant Feedback</h1>
                         <p>Lorem ipsum dolor sit amet, et sensibus explicari cotidieque mei, nec graeco consulatu no</p>
@@ -127,10 +128,10 @@
     <section id="design">      
         <div class="container">
             <div class="row">
-                <div class="col-md-6 design-image">
+                <div class="col-md-6 design-image wow bounceInLeft">
                     <img src="img/Samsung.jpg" class="img-responsive"/>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6 wow bounceInRight">
                     <h1>Engage With Other Users</h1>
                     <p>Lorem ipsum dolor sit amet, ne mea dolor dolore, ius no facilisi comprehensam, pro cu omnis debet omittam. Ferri inermis an sed, usu ex modus dolorem scripserit, veri utroque denique an cum. Veniam theophrastus no vis, quo tation indoctum te. Qui amet nostro conclusionemque at.</p>
                     <p>Lorem ipsum dolor sit amet, ne mea dolor dolore, ius no facilisi comprehensam, pro cu omnis debet omittam. Ferri inermis an sed, usu ex modus dolorem scripserit, veri utroque denique an cum. Veniam theophrastus no vis, quo tation indoctum te. Qui amet nostro conclusionemque at.</p>
@@ -147,16 +148,16 @@
     <section id="community">
         <div class="container">
             <div class="row">
-                <div class="col-md-4 logoimg">
+                <div class="col-md-4 logoimg wow fadeInUp">
                     <img src="img/logo2.png" class="img-responsive center-block"/>
                     <h2>OUR COMMUNITY</h2>
                     <p>Lorem ipsum dolor sit amet, et sensibus explicari cotidieque mei, nec graeco consulatu no</p>
                 </div>
                 <div class="col-md-4 sqimg">
-                    <img src="img/van.png" class="img-responsive center-block"/>
+                    <img src="img/van.png" class="img-responsive center-block wow fadeInUp"/>
                 </div>
                 <div class="col-md-4 sqimg">
-                    <img src="img/leaf.png" class="img-responsive center-block"/>
+                    <img src="img/leaf.png" class="img-responsive center-block wow fadeInUp"/>
                 </div>                
             </div>
         </div>
@@ -190,7 +191,7 @@
     
     <!--DOWNLOADS-->
     
-    <section id="downloads">
+    <section id="download">
         <div class="container">
             <div class="row">
                 
@@ -264,6 +265,19 @@
         });
         }(jQuery));
         
+        </script>
+        
+        <script>
+        
+            $('.carousel').carousel({
+                interval:5000
+                });
+            
+        </script>
+        
+        <script src="js/wow.min.js"></script>
+            <script>
+            new WOW().init();
         </script>
         
     </body>
