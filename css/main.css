@@ -50,6 +50,12 @@ font-style: normal;
     .navbar-nav{
         margin:0;
     }
+    #footer{
+        text-align:center;
+    }
+    #footer img{
+        margin:0 auto;
+    }    
 }
 /* ==========================================================================
    carousel
@@ -255,4 +261,19 @@ font-style: normal;
 }
 #downloads .btn i{
     padding-right:10px;
+}
+/* ==========================================================================
+   footer section
+   ========================================================================== */
+#footer{
+    padding:50px 0 50px;
+}
+#footer p{
+    font-weight:700;
+}
+#footer a{
+    color:#000;
+}
+#footer a:hover{
+    color:#16a085;
 }
